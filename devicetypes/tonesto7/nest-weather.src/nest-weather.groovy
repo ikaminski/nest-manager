@@ -855,6 +855,9 @@ def getWeatherHtml() {
       				</td>
                  </tr>
                  </table>
+                   <td class="r33"><div class="station"><b>Station Id:</b> ${state?.curWeather?.current_observation?.station_id} </div></td>
+                 </tr>
+               </table>
         
                <div id="openModal" class="alertModal">
 					<div>
